@@ -1,0 +1,369 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236,236,236);
+}
+header {
+    background-color: white;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0rem 1rem;
+}
+.banner {
+    background-color: rgb(155, 186, 233);
+    height: 600px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin: 0 1rem;
+}
+.twi {
+    margin: 0 1rem
+}
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+}
+ul.nav {
+    display: flex;
+    flex-wrap: nowrap;
+}
+div.language {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+}
+ul.nav li {
+    margin: 0 1rem;
+}
+.ede {
+    margin: 0 0.2rem;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+li a:hover {
+    color: blue;
+}
+.speak {
+    margin: 0 4rem;
+    font-size: 60px;
+    font-weight: 800;
+    padding-top: 10rem;
+}
+.text1 {
+    margin: 1.5rem 4rem;
+    width: 500px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: rgb(7, 7, 7, 0.8);
+}
+a.get {
+    display: block;
+    text-decoration: none;
+    margin: 0 4rem;
+    font-weight: bold;
+    background-color: white;
+    width: 100px;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    color: rgb(0, 0, 255, 0.6);
+}
+.land1 {
+    transform: rotate(25deg);
+    margin: 5rem 0 -3rem -3rem;
+}
+.land2 {
+    transform: rotate(25deg);
+    margin: 3rem 8rem 1rem -7.5rem;
+}
+.testimonial {
+    height: 900px;
+}
+.testi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 4rem 4rem 0;
+}
+.testimonial img {
+    border-radius: 50%;
+    width: 85px;
+    margin-right: 1rem;
+}
+.textfirst h1 {
+    font-weight: 900;
+    font-size: x-large;
+    margin-bottom: 1.5rem;
+    color: rgb(71, 63, 63);
+}
+.textfirst h2 {
+    font-size: medium;
+    font-weight: 900;
+    color: rgb(71, 63, 63);
+    margin-bottom: 0.5rem;
+}
+.textsecond h1 {
+    font-weight: 900;
+    font-size: x-large;
+    margin-bottom: 1.5rem;
+    width: 28rem;
+    line-height: 2rem;
+    color: rgb(71, 63, 63);
+}
+.textsecond h2 {
+    font-weight: 800;
+    color: rgb(71, 63, 63);
+    margin-bottom: 0.5rem;
+}
+.textthird h1 {
+    font-weight: 900;
+    font-size: x-large;
+    margin-bottom: 1.5rem;
+    width: 30rem;
+    line-height: 2rem;
+    color: rgb(71, 63, 63);
+}
+.textthird h2{
+    font-weight: 800;
+    color: rgb(71, 63, 63);
+    margin-bottom: 0.5rem;
+}
+.textfourth h1 {
+    font-weight: 900;
+    font-size: x-large;
+    margin-bottom: 1.5rem;
+    width: 28rem;
+    line-height: 2rem;
+    color: rgb(71, 63, 63);
+}
+.textfourth h2{
+    font-weight: 800;
+    color: rgb(71, 63, 63);
+    margin-bottom: 0.5rem;
+}
+.firsttesti, .secondtesti {
+    display: flex;
+    align-content: center;
+    margin: 4rem 0;
+}
+.thirdtesti, .fourthtesti {
+    display: flex;
+    align-content: center;
+}
+.reason-for-signal {
+    background-color: rgb(255,255,255);
+}
+.con {
+    margin: 0 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.q1 h1 {
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.q1 p {
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 6rem;
+}
+.con1 h1 {
+    font-weight: bold;
+    font-size: 45px;
+    width: 70%;
+    margin-bottom: 2rem;
+}
+.con1 p {
+    font-size: 20px;
+    width: 330px;
+    line-height: 30px;
+}
+.con img {
+    width: 60%;
+    height: 600px;
+    margin-bottom: 3rem;
+    border-radius: 15px;
+}
+.features {
+    padding: 64px 64px 0;
+}
+.firstchild {
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.secondchild {
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    margin-left: 25px;
+    border-radius: 20px;
+}
+.parent {
+    display: flex;
+    width: 100%;
+    margin-bottom: 0;
+}
+.parent h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 11px;
+    font-weight: bolder;
+}
+.parent p {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+.feat {
+    padding: 25px 64px 64px;
+}
+.childone {
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.childtwo {
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    margin-left: 25px;
+    border-radius: 20px;
+}
+.par {
+    display: flex;
+    width: 100%;
+    margin-top: 0;
+}
+.par h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 11px;
+    font-weight: bolder;
+}
+.par p {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+.ads {
+    background-color: white;
+}
+.adstext-one h1 {
+    font-weight: 900;
+    font-size: 30px;
+    width: 300px;
+    line-height: 35px;
+    margin-bottom: 2rem;
+}
+.adstext-one p {
+    width: 85%;
+    font-size: 20px;
+    line-height: 30px;
+}
+.adstext-two h1 {
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+}
+.adstext-two p {
+    width: 65%;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 1.5rem;
+}
+.adscon-one {
+    margin: 0 6rem 0 4rem;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.adscon-one img {
+    margin-right: 5.5rem;
+    margin-bottom: 4rem;
+    width: 60%;
+    border-radius: 15px;
+}
+.adscon-two img {
+    width: 60%;
+    border-radius: 15px;
+    margin-left: 5.5rem;
+    margin-bottom: 3rem;
+}
+.button {
+    font-size: 10px;
+    font-weight: lighter;
+    margin: 1.5rem 0 3rem 1.5rem;
+}
+.adscon-two a {
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    border: 2px solid rgb(44,107,237);
+    padding: 12px;
+    color: rgb(44,107,237);
+    border-radius: 10px;
+}
+.adscon-two a:hover {
+    color: blue;
+}
+.adscon-two {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 4rem 0 4rem
+}
+footer {
+    color: rgb(233,233,233);
+    background-color: rgb(60,55,68);
+}
+footer a {
+    text-decoration: none;
+    color: rgb(233,233,233);
+}
+footer a:hover {
+    color: rgb(233,233,233);
+    text-decoration: underline;
+}
+.footer-container {
+    padding: 4rem 4rem 6rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.legal-one {
+    margin-bottom: 0.4rem;
+}
+.legal-two {
+    width: 75%;
+    line-height: 1.3rem;
+    margin-bottom: 2rem;
+}
+.footer-container h1 {
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+.footer-container li {
+    padding-bottom: 0.3rem;
+}
+.company {
+    margin-left: -5rem;
+}
+
+
